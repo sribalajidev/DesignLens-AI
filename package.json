@@ -8,9 +8,7 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "validate": "node src/index.js",
-    "fetch": "node scripts/fetchFigma.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "node src/index.js"
   },
   "repository": {
     "type": "git",
