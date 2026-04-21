@@ -18,7 +18,7 @@ async function main() {
 
   const mode = process.argv[2];
 
-  if (mode === "ui") {
+  if (!mode || mode === "run") {
     const input = await getUserInput();
 
     const VIEWPORTS = {
@@ -44,7 +44,8 @@ async function main() {
 
     formatResult(result);
   } else {
-    console.log("Use: npm run validate ui");
+    console.log("Usage:");
+    console.log("  uiray run");
   }
 }
 

@@ -20,7 +20,7 @@
       "README.md"
     ],
     "scripts": {
-      "validate": "node src/index.js"
+      "validate": "node src/index.js run"
     },
     "repository": {
       "type": "git",

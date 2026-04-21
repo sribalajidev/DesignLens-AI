@@ -42,7 +42,11 @@ Notes:
 
 Run interactive CLI:
 
-`npx designlens ui`
+```text
+npx uiray run
+(or)
+uiray run
+```
 
 ## CLI Flow
 
