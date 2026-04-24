@@ -14,7 +14,7 @@ UIRay AI is a CLI tool for validating UI by comparing frontend implementation wi
 
 Run using npx:
 
-`npx uiray run`
+`npx uiray-ai run`
 
 Or install globally:
 
@@ -43,7 +43,7 @@ Notes:
 Run interactive CLI:
 
 ```text
-npx uiray run
+npx uiray-ai run
 (or)
 uiray run
 ```
